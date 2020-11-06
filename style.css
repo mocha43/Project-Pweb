@@ -1,0 +1,44 @@
+body{
+    background-image: url(pariwisata\ jember.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: Bell MT;
+}
+h5{
+    text-align: center;
+    color: #D3D1E2;
+    font-family: Bell MT;
+    margin-block-start: 2.33em;
+}
+text1{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-family: Berlin Sans FB;
+}
+label{
+    text-align: left;
+    color: black;
+    font-family: Berlin Sans FB;
+}
+.ContactUs{
+    border: 5px;
+    background-color: rgb(207, 220, 249, 0.6);
+    opacity: 0,3;
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    td-align: center;
+    margin-block-end: 2.33em;
+}
+table{
+    padding: 10px;
+    margin: auto
+}
