@@ -125,7 +125,6 @@
     background-position: center;
     position: relative;
     margin-top: 0;
-    overflow: visible;
 }
 .Rental2 {
     background-color: #16395B;
@@ -136,7 +135,7 @@
     background-position: center;
     position: relative;
     margin-top: 0;
-    overflow: visible;
+    text-align: center;
 }
 .Rental1 h1{
     background-color: white;
@@ -146,8 +145,30 @@
     font-family: Berlin Sans FB;
     font-size: 1cm;
     text-align: center;
-    margin-top: -0.5cm;
     color: black;
+    margin-top: -1.5px;
+}
+.Rental2 .boxes{
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+}
+.text_1{
+    background-color: white;
+    opacity: 61%;
+    color: black;
+    width: 5.5cm;
+    height: 1cm;
+    text-align: center; 
+    margin-left: 70px;
+}
+.text_2{
+    background-color: white;
+    opacity: 61%;
+    color: black;
+    width: 7.5cm;
+    height: 2.5cm;
+    margin: 30px;
 }
 /*--------*/
 
