@@ -24,11 +24,15 @@
 }
 .Button1{
     text-align: right;
-    padding: 10px;
+    padding-right: 30px;
 }
 .Button2{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+}
+.Button2 .button{
+    display: inline-block;
+    margin: 40px;
 }
 .satu{
     background-color: black;
@@ -110,8 +114,31 @@
 }
 .image3 {
     display: inline;
-    padding-left: 4cm;
+    padding-left: 4.1cm;
     padding-top: 20px;
+}
+.column {
+    left: 10%;
+    float: left;
+    width: 25%;
+    padding-left: 135px;
+    text-align: center;
+    font-size: 0.5cm;
+    margin-right: -120px;
+}
+.column h1{
+    padding-top: 35px;
+    display: inline;
+    color: white;
+    font-size: 1cm;
+    text-align: center;
+}
+.column p{
+    padding-top: 20px;
+    display: inline;
+    color: white;
+    font-size: 0.5cm;
+    text-align: center;
 }
 /*--------*/
 
@@ -170,10 +197,8 @@
     height: 2.5cm;
     margin: 30px;
 }
-/*--------*/
 
-/* Page 5 */
-
+/* Page 5*/
 .Himbauan{
     background-image: url(pariwisata\ jember.jpg);
     width: 100%;
@@ -277,11 +302,10 @@
     font-family: Berlin Sans FB;
     font-size: 0.5cm;
 }
-/*--------*/
 
 /* Page 6 */
 
-h5{
+h4{
     text-align: center;
     color: #D3D1E2;
     font-family: Bell MT;
