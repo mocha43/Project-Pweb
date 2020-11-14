@@ -1,3 +1,6 @@
+body{
+    background-color: #16395B;
+}
 /* Page 1 */
 
 .AboutUs{
@@ -24,15 +27,11 @@
 }
 .Button1{
     text-align: right;
-    padding-right: 30px;
+    padding: 10px;
 }
 .Button2{
     text-align: center;
-    padding: 20px;
-}
-.Button2 .button{
-    display: inline-block;
-    margin: 40px;
+    padding: 10px;
 }
 .satu{
     background-color: black;
@@ -41,14 +40,13 @@
     width: 3cm;
     height: 1cm;  
 }
-/*--------*/
 
 /* Page 2 */
 
 .Destinasi{
     background-color: #16395B;
     width: 100%;
-    height: 600px;
+    height: 400%;
     padding-top: 2%;
     background-size: cover;
     background-position: center;
@@ -64,139 +62,103 @@
 }
 .Destinasi p{
     padding-top: 1cm;
+    margin-bottom: 0%;
     padding-left: 3cm;
     color: rgb(255, 255, 255);
     font-family: Arial;
     font-size: 0.4cm
 }
-/*--------*/
 
 /* Page 3 */
-.Akomodasi1 {
-    background-image: url(/gambar/Image\ 7\ waifu2x.jpg);
-    width: 100%;
-    height: 300px;
-    padding-top: 2%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin-top: 0;
-    overflow: visible;
+#Akomodasi{
+    color: white;
 }
-.Akomodasi2 {
+.Akomodasi1 {
     background-color: #16395B;
     width: 100%;
-    height: 300px;
+    height: 400px;
     padding-top: 2%;
     background-size: cover;
     background-position: center;
     position: relative;
-    margin: 0;
+    margin-top: -23%;
     overflow: visible;
 }
 .Akomodasi1 h1{
     font-family: Baskerville Old Face;
     font-size: 1cm;
-    padding-left: 1cm;
+    padding-left: 0cm;
     margin-top: -0.5cm;
-    text-align: left;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 .image1 {
     display: inline;
-    padding-left: 5cm;
+    padding-left: 0cm;
     padding-top: 60px;
 }
 .image2 {
     display: inline;
-    padding-left: 4cm;
+    padding-left: 0cm;
     padding-top: 20px;
 }
 .image3 {
     display: inline;
-    padding-left: 4.1cm;
+    padding-left: 0cm;
     padding-top: 20px;
 }
-.column {
-    left: 10%;
-    float: left;
-    width: 25%;
-    padding-left: 135px;
-    text-align: center;
-    font-size: 0.5cm;
-    margin-right: -120px;
-}
-.column h1{
-    padding-top: 35px;
+.p1 h1{
     display: inline;
     color: white;
+    font: Baskerville Old Face;
     font-size: 1cm;
-    text-align: center;
+    padding-left: 1cm;
+    padding-top: 10px;
 }
-.column p{
-    padding-top: 20px;
+.p1 p{
+    display: inline;
+    text-align: center;
+    color: white;
+    font: Baskerville Old Face;
+    font-size: 0.5cm;
+    padding-left: 0cm;
+    padding-top: 5px;
+}
+.p2 h1{
     display: inline;
     color: white;
-    font-size: 0.5cm;
-    text-align: center;
-}
-/*--------*/
-
-/* Page 4*/
-.Rental1 {
-    background-image: url(/gambar/rent.jpg);
-    width: 100%;
-    height: 300px;
-    padding-top: 2%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin-top: 0;
-}
-.Rental2 {
-    background-color: #16395B;
-    width: 100%;
-    height: 300px;
-    padding-top: 2%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin-top: 0;
-    text-align: center;
-}
-.Rental1 h1{
-    background-color: white;
-    opacity: 61%;
-    width: auto;
-    height: 1.3cm;
-    font-family: Berlin Sans FB;
+    font: Baskerville Old Face;
     font-size: 1cm;
+    padding-left: 1cm;
+    padding-top: 10px;
+}
+.p2 p{
+    display: inline;
     text-align: center;
-    color: black;
-    margin-top: -1.5px;
+    color: white;
+    font: Baskerville Old Face;
+    font-size: 0.5cm;
+    padding-right: 2cm;
+    padding-top: 5px;
 }
-.Rental2 .boxes{
-    display: inline-block;
-    margin: auto;
-    padding: auto;
-}
-.text_1{
-    background-color: white;
-    opacity: 61%;
-    color: black;
-    width: 5.5cm;
-    height: 1cm;
-    text-align: center; 
-    margin-left: 70px;
-}
-.text_2{
-    background-color: white;
-    opacity: 61%;
-    color: black;
-    width: 7.5cm;
-    height: 2.5cm;
-    margin: 30px;
-}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    padding: 60px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: auto;
+    flex: 0%;
+    justify-content: center;
+  }
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 10;
+    font-size: 30px;
+    flex: 0%;
+  }
 
 /* Page 5*/
 .Himbauan{
@@ -207,7 +169,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-top: 0;
+    margin-top: 100%;
 }
 .Himbauan h1{
     text-align: center;
@@ -305,7 +267,7 @@
 
 /* Page 6 */
 
-h4{
+h5{
     text-align: center;
     color: #D3D1E2;
     font-family: Bell MT;
@@ -353,4 +315,8 @@ label{
 table{
     padding: 10px;
     margin: auto
+}
+.next{
+    margin-left: 37.5cm;
+    margin-bottom: 10cm;
 }
