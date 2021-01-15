@@ -41,6 +41,7 @@
     width: 3cm;
     height: 1cm;  
 }
+
 /*--------*/
 
 /* Page 2 */
@@ -69,6 +70,7 @@
     font-family: Arial;
     font-size: 0.4cm
 }
+
 /*--------*/
 
 /* Page 3 */
@@ -197,6 +199,7 @@
     height: 2.5cm;
     margin: 30px;
 }
+
 
 /* Page 5*/
 .Himbauan{
@@ -362,4 +365,57 @@ table{
 .next{
     margin-left: 37.5cm;
     margin-top: -8cm;
+}
+@media only screen and (max-width:720px){
+      /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+    /* .AboutUs{
+        float: none;
+        text-align: center;
+    }
+    .Button1{
+        float:none;
+    }
+    .Button2{
+        float: none;
+    }
+    .Destinasi{
+        float: none;
+    }
+    .Akomodasi1{
+        float: none;
+        
+    }
+    .Akomodasi2{
+        float: none;
+        
+    }
+    .Rental1{
+        float: none;
+        display: table-column;
+    }
+    .Rental2{
+        float: none;
+        display: block;
+    }
+    .Himbauan{
+        float: none;
+        display: block;
+    }
+    .ContactUsPage{
+        float: none;
+        display: block;
+    } */
 }

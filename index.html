@@ -15,50 +15,41 @@
             </div>
             <div class="TextPage1">
                 <h1>JEMBER <br> <em style="text-align: center;color: rgb(255, 255, 255);
-                font-family: Edwardian Script ITC;font-size: 2cm;margin-block-start: 1em;">T</em> OURISM <br />
+                    font-family: Edwardian Script ITC;font-size: 2cm;margin-block-start: 1em;">T</em> OURISM <br />
                 </h1>
                 <h4>Jember Tourism merupakan sebuah website yang menyediakan informasi lengkap <br>
-                seputar kepariwisataan di kota Jember. Mulai dari pantai, air terjun, perkebunan<br>
-                kolam renang yang paling menarik dan diminati di Jember. <br/></h4>
-            </div>
-            <div class="Button2">
-                <div class="button">
-                    <a href="#Destinasi"><button class="satu">Destinasi</button></a>
+                    seputar kepariwisataan di kota Jember. Mulai dari pantai, air terjun, perkebunan<br>
+                    kolam renang yang paling menarik dan diminati di Jember. <br/></h4>
                 </div>
-                <div class="button">
-                    <a href="#Akomodasi"><button class="satu">Akomodasi</button></a>
+                <div class="Button2">
+                    <div class="button">
+                        <a href="#Destinasi"><button class="satu">Destinasi</button></a>
+                    </div>
+                    <div class="button">
+                        <a href="#Akomodasi"><button class="satu">Akomodasi</button></a>
+                    </div>
+                    <div class="button">
+                        <a href="#Rental"><button class="satu">Rental Mobil</button></a>
+                    </di>
                 </div>
-                <div class="button">
-                    <a href="#Rental"><button class="satu">Rental Mobil</button></a>
-                </di>
             </div>
-        </div>
-    </section>
-    <!--/page 1-->
-
-    <!--page 2-->
-    <section id="Destinasi">
-        <div class="Destinasi">
-            <div class="TextPage2">
-                <h1><x style="text-align: left;color: rgb(255, 255, 255);
-                    font-family: Felix Titling;font-size: 1cm;margin-block-start: 1em;">D</x>AFTAR  
-                    <x style="text-align: left;color: rgb(255, 255, 255);
-                    font-family: Felix Titling;font-size: 1cm;margin-block-start: 1em;">D</x>ESTINASI 
-                    <x style="text-align: left;color: rgb(255, 255, 255);
-                    font-family: Felix Titling;font-size: 1cm;margin-block-start: 1em;">W</x>ISATA
-                </h1>
-                <p><img src="/gambar/papuma.png" alt="papuma" style="float:left;width:5cm;height:3cm;margin-right:1cm;
-                    margin-left:6cm">     
-                    <x style="font-size: 0.6cm;font-family: Felix Titling;color: white;">1. Papuma</x><br>
-                    Papuma (Pasir Putih Malikan) merupakan sebuah pantai yang terletak di <br>
-                    desa lojejer, kecamatan Wuluhan. Kurang lebih 45 km dari pusat kota Jember. <br>  
-                    Harga tiket masuk berkisar Rp 17.000 dan parkir kendaraan untuk motor Rp 5.000 <br>
-                    sedangkan mobil Rp. 10.000. Terdapat penginapan dengan harga yang berbeda- <br>
-                    beda dari yang murah sampai yang mahal. Disana juga terdapat berbagai toko <br>
-                    aksesoris dan warung-warung makan. <br>
-                    <br>
+        </section>
+        <!--/page 1-->
+        
+        <!--page 2-->
+        <section id="Destinasi">
+            <div class="Destinasi">
+                <div class="TextPage2">
+                    <h1><x style="text-align: left;color: rgb(255, 255, 255);
+                        font-family: Felix Titling;font-size: 1cm;margin-block-start: 1em;">D</x>AFTAR  
+                        <x style="text-align: left;color: rgb(255, 255, 255);
+                        font-family: Felix Titling;font-size: 1cm;margin-block-start: 1em;">D</x>ESTINASI 
+                        <x style="text-align: left;color: rgb(255, 255, 255);
+                        font-family: Felix Titling;font-size: 1cm;margin-block-start: 1em;">W</x>ISATA
+                    </h1>
+                <p>
                     <img src="/gambar/Image 2.png" alt="watulo" style="float:left;width:5cm;height:3cm;margin-right:1cm;">     
-                    <x style="font-size: 0.6cm;font-family: Felix Titling;color: white;">2. Pantai Watu Ulo
+                    <x style="font-size: 0.6cm;font-family: Felix Titling;color: white;">1. Pantai Watu Ulo
                     </x>
                     <br>
                     Pantai watu ulo letaknya bersebelahan dengan pantai Papuma, tetapi beda desa <br>
@@ -68,9 +59,36 @@
                     menjual masakan khas tepi pantai (seafood) serta terdapat beberapa toko aksesoris <br>
                     yang menjual berbagai macam kerajinan tangan. <br>
                     <br>
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script> 
+                    $(document).ready(function(){
+                        $("#flip").click(function(){
+                            $("#panel").slideToggle("slow");
+                        });
+                    });
+                </script>
+                <style> 
+                    #panel, #flip {
+                        padding: 5px;
+                        text-align: center;
+                        background-color: #e5eecc;
+                        border: solid 1px #c3c3c3;
+                    }
+                    
+                    #panel {
+                        padding: 50px;
+                        display: none;
+                    }
+                </style>
+            </head>
+            <body>
+                
+                <div id="flip">Tampilkan Lainnya</div>
+                <div id="panel">
                     <img src="/gambar/Image 3.png" alt="bandealit" style="float:left;width:5cm;height:3cm;margin-right:1cm;
                     margin-left:6cm">     
-                    <x style="font-size: 0.6cm;font-family: Felix Titling;color: white;">3. Pantai Bandealit
+                    <x style="font-size: 0.6cm;font-family: Felix Titling;color: black;">2. Pantai Bandealit
                     </x>
                     <br>
                     Bertempat di desa Andongrejo kecamatan Tempurejo. Pantai ini bisa dibilang masih <br>
@@ -80,138 +98,153 @@
                     di hari libur atau pada peringatan hari-hari besar, tidak ada harga tiket masuk bagi <br>
                     para pengunjung. Namun jika Anda kesana tepat pada hari libur, Anda akan <br>
                     <y style="margin-left:12cm">dikenakan biaya sebesar Rp 5.000.</y><br>
+                    <div class="next">
+                        <div><img src="next.png" alt="next" style="width:50px;height:50px;"></div>    
+
+                    <br>
+                </div>
+                
+            </body>
+            
+            </div>
+        </section>
+        <!--/page 2-->
+        
+        <!--page 3-->
+        <section id="Akomodasi">
+            <div class="Akomodasi1">
+                <h1>Daftar Akomodasi</h1>
+                <div class="image1">
+                    <img src="/gambar/aston.png" alt="aston" style="width:6cm;height:4cm;text-align:left;">
+                </div>
+                <div class="image2">
+                    <img src="/gambar/dafam.png" alt="dafam" style="width:4cm;height:6cm;text-align:center;">
+                </div>
+                <div class="image3">
+                    <img src="/gambar/doho homestay.png" alt="doho" style="width:6cm;height:5cm;text-align:center;">
+                </div>
+            </div>
+            <div class="Akomodasi2">
+                <br>
+                <div class="column">
+                    <h1>Hotel Aston</h1><br>
+                    <br>
+                    <a href="https://goo.gl/maps/jJfaJWTmYEyQBFby9" style="text-decoration: none; color: white;" target="_blank">
+                        Alamat : Jalan Sentot Prawirodirjo No 88, Kaliwates, Jember
+                    </a><br>
+                    <p>Rating : 8.2 / 10</p>
+                </div>
+                <div class="column">
+                    <h1>Hotel Dafam Lotus</h1><br>
+                    <br>
+                    <a href="https://goo.gl/maps/HGBwsdRBa6vnGrjm9" style="text-decoration: none; color: white;" target="_blank">
+                        Alamat : Jalan Gatot Subroto No. 47, Kaliwates, Jember
+                    </a><br>
+                    <p>Rating : 8.6 / 10</p>
+                </div>
+                <div class="column">
+                    <h1>Doho Homestay</h1><br>
+                    <br>
+                    <a href="https://goo.gl/maps/RRrNuVqKTWMRVwPv9" style="text-decoration: none; color: white;" target="_blank">
+                        Alamat : Jalan Doho No.8, Sumbersari, Jember
+                    </a><br>
+                    <p> Rating : 8.6 / 10</p>
+                </div>
+            </div>
+        </section>
+        <!--/page 3-->
+        
+        <!--page 4-->
+        <section id="Rental">
+            <div class="Rental1">
+                <h1>Rental Mobil</h1>
+            </div>
+            <div class="Rental2">
+                <div class="boxes">
+                    <h2 class="text_1">Mandiri Rent Car</h2>
+                    <h3 class="text_2">Alamat : Jl. Sumatra <br> No.80 B, <br> Tegal Boto Lor, Sumbersari, Jember</h3>
+                </div>
+                <div class="boxes">
+                    <h2 class="text_1">Merpati Rent Car</h2>
+                    <h3 class="text_2">Alamat : Jl. Sentot Prawirodirdjo Gg. 10 <br> No.201, Telengsari, Kaliwates, Jember</h3>
+                </div>
                 <div class="next">
-                    <div><img src="next.png" alt="next" style="width:50px;height:50px;"></div>    
-                </p>
-            </div>
-        </div>
-    </section>
-    <!--/page 2-->
-
-    <!--page 3-->
-    <section id="Akomodasi">
-        <div class="Akomodasi1">
-            <h1>Daftar Akomodasi</h1>
-            <div class="image1">
-                <img src="/gambar/aston.png" alt="aston" style="width:6cm;height:4cm;text-align:left;">
-            </div>
-            <div class="image2">
-                <img src="/gambar/dafam.png" alt="dafam" style="width:4cm;height:6cm;text-align:center;">
-            </div>
-            <div class="image3">
-                <img src="/gambar/doho homestay.png" alt="doho" style="width:6cm;height:5cm;text-align:center;">
-            </div>
-        </div>
-        <div class="Akomodasi2">
-            <br>
-            <div class="column">
-                <h1>Hotel Aston</h1><br>
-                <br>
-                <a href="https://goo.gl/maps/jJfaJWTmYEyQBFby9" style="text-decoration: none; color: white;" target="_blank">
-                    Alamat : Jalan Sentot Prawirodirjo No 88, Kaliwates, Jember
-                </a><br>
-                <p>Rating : 8.2 / 10</p>
-            </div>
-            <div class="column">
-                <h1>Hotel Dafam Lotus</h1><br>
-                <br>
-                <a href="https://goo.gl/maps/HGBwsdRBa6vnGrjm9" style="text-decoration: none; color: white;" target="_blank">
-                    Alamat : Jalan Gatot Subroto No. 47, Kaliwates, Jember
-                </a><br>
-                <p>Rating : 8.6 / 10</p>
-            </div>
-            <div class="column">
-                <h1>Doho Homestay</h1><br>
-                <br>
-                <a href="https://goo.gl/maps/RRrNuVqKTWMRVwPv9" style="text-decoration: none; color: white;" target="_blank">
-                    Alamat : Jalan Doho No.8, Sumbersari, Jember
-                </a><br>
-                <p> Rating : 8.6 / 10</p>
-            </div>
-        </div>
-    </section>
-    <!--/page 3-->
-
-    <!--page 4-->
-    <section id="Rental">
-        <div class="Rental1">
-            <h1>Rental Mobil</h1>
-        </div>
-        <div class="Rental2">
-            <div class="boxes">
-                <h2 class="text_1">Mandiri Rent Car</h2>
-                <h3 class="text_2">Alamat : Jl. Sumatra <br> No.80 B, <br> Tegal Boto Lor, Sumbersari, Jember</h3>
-            </div>
-            <div class="boxes">
-                <h2 class="text_1">Merpati Rent Car</h2>
-                <h3 class="text_2">Alamat : Jl. Sentot Prawirodirdjo Gg. 10 <br> No.201, Telengsari, Kaliwates, Jember</h3>
-            </div>
-            <div class="boxes">
-                <h2 class="text_1">Redjo Rent Car</h2>
-                <h3 class="text_2">Alamat : Jl. Jenderal Ahmad Yani No.5, <br> Kp. Using, Kepatihan, Kaliwates, Jember</h3>
-            </div>
-            <div class="next">
-                <div><img src="next.png" alt="next" style="width:50px;height:50px;"></div>  
-        </div>
-    </section>
-    <!--/page 4-->
-
-    <!--page 5-->
-    <section id="Himbauan">
-        <div class="Himbauan">
-            <div class="TextPage5">
-                <h1>JEMBER<br><z style="text-align: center;color: rgb(255, 255, 255);
-                    font-family: Edwardian Script ITC;font-size: 2cm;margin-block-start: 1em;">T</z>OURISM
-                     </br>
+                    <div><img src="next.png" alt="next" style="width:50px;height:50px;"></div>  
+                </div>
+            </section>
+            <!--/page 4-->
+            
+            <!--page 5-->
+            <section id="Himbauan">
+                <div class="Himbauan">
+                    <div class="TextPage5">
+                        <h1>JEMBER<br><z style="text-align: center;color: rgb(255, 255, 255);
+                            font-family: Edwardian Script ITC;font-size: 2cm;margin-block-start: 1em;">T</z>OURISM
+                        </br>
+                    </h1>
+                    <h2>Himbauan Pandemi</h2>
+                    <h3>Dalam rangka mencegah penyebaran virus corona (covid-19), selama Anda berwisata <br>
+                        mohon untuk tetap melaksanakan hal berikut :</br></h3>
+                        <c>1. Menggunakan masker setiap beraktivitas <br></br></c>
+                        <d>2. Menghindari berkumpul dan selalu menjaga jarak minimal 1 meter <br></d>
+                        <e>3. Membawa bekal dari rumah atau membungkus makanan/minuman apabila membeli dan menggunakan peralatan makan pribadi <br></e>
+                        <f>4. Menjaga kebersihan diri dengan selalu mencuci tangan dengan sabun serta memakai hand sanitizer <br></br></f>
+                        <j>5. Menjaga kebersihan lingkungan dimanapun berada </j>
+                    </div>
+                </div>
+            </section>
+            <!--/page 5-->
+            
+            <!--page 6-->
+            <section id="ContactUs"></section>
+            <div class="ContactUsPage">
+                <h1>JEMBER <br><em style="text-align: center;color: rgb(255, 255, 255);
+                    font-family: Edwardian Script ITC;font-size: 2cm;margin-block-start: 1em;">T</em> OURISM<br />
                 </h1>
-                <h2>Himbauan Pandemi</h2>
-                <h3>Dalam rangka mencegah penyebaran virus corona (covid-19), selama Anda berwisata <br>
-                mohon untuk tetap melaksanakan hal berikut :</br></h3>
-                <c>1. Menggunakan masker setiap beraktivitas <br></br></c>
-                <d>2. Menghindari berkumpul dan selalu menjaga jarak minimal 1 meter <br></d>
-                <e>3. Membawa bekal dari rumah atau membungkus makanan/minuman apabila membeli dan menggunakan peralatan makan pribadi <br></e>
-                <f>4. Menjaga kebersihan diri dengan selalu mencuci tangan dengan sabun serta memakai hand sanitizer <br></br></f>
-                <j>5. Menjaga kebersihan lingkungan dimanapun berada </j>
+                <script src="jquery-3.4.1.min.js"></script>
+                <script>
+                    $(document).ready(function(){
+                        $("button").click(function(){
+                            var x = $("form").serializeArray();
+                            $.each(x, function(i, field){
+                                $("#results").append(field.name + ":" + field.value + " ");
+                            });
+                        });
+                    });
+                </script>
+                <h4>Untuk kritik, saran dan informasi lebih lanjut, dapat menghubungi kami :</h4>
+                <div class="ContactUs">
+                    <form action="" class="Contact" align="center">
+                        <table>
+                            <text1>Contact Us</text1>
+                            <tr>
+                                <td><label>Email</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="Email" placeholder="Masukkan email Anda" size="28"></td>
+                            </tr>
+                            <tr>
+                                <td><label>No. Hp</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="No HP" placeholder="Masukkan nomor Anda" size="28"></td>
+                            </tr>
+                            <tr>
+                                <td><label>Pesan</label></td>
+                            </tr>
+                            <tr>
+                                <td><textarea placeholder="Masukkan pesan Anda" name="Pesan" id="" cols="30" rows="5"></textarea></td>
+                            </tr>
+                        </form>
+                        </table>
+                        <div class="Contact">
+                            <button>Kirim</button><br><br>
+                        </div>
+                        <div class="results" id="results"><br></div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!--/page 5-->
-
-    <!--page 6-->
-    <section id="ContactUs"></section>
-        <div class="ContactUsPage">
-            <h1>JEMBER <br><em style="text-align: center;color: rgb(255, 255, 255);
-            font-family: Edwardian Script ITC;font-size: 2cm;margin-block-start: 1em;">T</em> OURISM<br />
-            </h1>
-            <h4>Untuk kritik, saran dan informasi lebih lanjut, dapat menghubungi kami :</h4>
-        <div class="ContactUs">
-            <form>
-                <table>
-                    <text1>Contact Us</text1>
-                    <tr>
-                        <td><label>Email</label></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" placeholder="Masukkan email Anda" size="28"></td>
-                    </tr>
-                    <tr>
-                        <td><label>No. Hp</label></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" placeholder="Masukkan nomor Anda" size="28"></td>
-                    </tr>
-                    <tr>
-                     <td><label>Pesan</label></td>
-                    </tr>
-                    <tr>
-                        <td><textarea placeholder="Masukkan pesan Anda" name="" id="" cols="30" rows="5"></textarea></td>
-                    </tr>
-                </table>
-                <input type="submit" value="Kirim" text-align='center'>
-            </form>
-        </div>
-        </div>
-    </section>
-    <!--/page 6-->
-</body>
-</html>
+        </section>
+        <!--/page 6-->
+    </body>
+    </html>
+    
